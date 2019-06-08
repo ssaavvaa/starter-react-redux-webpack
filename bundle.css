@@ -6,7 +6,8 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 0px 20px; }
+  padding: 0px 20px;
+  min-width: 300px; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
@@ -363,7 +364,8 @@ textarea {
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 0px 20px; }
+  padding: 0px 20px;
+  min-width: 300px; }
 
 .nav__header {
   padding: 30px;
@@ -436,6 +438,9 @@ textarea {
     color: #6b4808;
     animation: none;
     transform: scale(1.2); }
+
+.gitHub_image {
+  width: 100%; }
 
 @keyframes flickerAnimation {
   /* flame pulses */
