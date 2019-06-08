@@ -1,0 +1,37 @@
+
+.main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+&__heading{
+    text-align: center;
+      margin:30px;
+      font-size: 3rem;
+    }
+&__image{
+    margin:0 auto;
+    width:500px;
+    height:400px;
+    background: white;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  }
+
+&__paragraph {
+  box-shadow: 0 4px 2px -2px gray;
+  font-weight: bold;
+    text-align: center;
+    color:rgb(107, 72, 8);
+    margin:20px;
+  }
+
+  &__paragraph-2 {
+    background: rgba(255, 255, 255, 0.486);
+    padding:15px;
+    box-shadow: inset 0px 0px 4px 4px #e7eaf1;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.76);
+    margin:20px;
+  }
+
+}
